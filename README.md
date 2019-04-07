@@ -1,2 +1,2 @@
-# simple-node-api-hw1
-SImple node API created for a node masterclass I am taking based on pure javascript/node with no frameworks
+# Simple Node API Assignment #1
+Simple node API created for the node masterclass I am taking based on pure javascript/node with no frameworks
