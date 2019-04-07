@@ -19,13 +19,14 @@ http.createServer(function (req, res) {
         let message = {'message' : 'Hello, welcome to my app.'};
         res.write(JSON.stringify(message));
         res.end();
-        
+
     // Not found route
     } else {
       res.writeHead(200, { 'Content-Type' : 'text/html'});
       let message = {'error' : 'page not found'};
       res.write(JSON.stringify(message));
       res.end();
+      
     }
   console.log('App is started on port: ' + port);
 }).listen(port);
